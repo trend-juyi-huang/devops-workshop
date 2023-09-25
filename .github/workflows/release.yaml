@@ -22,7 +22,7 @@ jobs:
       id-token: write # to enable use of OIDC for npm provenance
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [20.6.1]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
