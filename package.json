@@ -1,0 +1,23 @@
+{
+  "name": "devopsday-automation-release",
+  "version": "0.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trend-juyi-huang/devops-workshop.git"
+  },
+  "author": "Juyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trend-juyi-huang/devops-workshop/issues"
+  },
+  "homepage": "https://github.com/trend-juyi-huang/devops-workshop#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
